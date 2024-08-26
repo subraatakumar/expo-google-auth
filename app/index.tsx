@@ -6,8 +6,7 @@ import {
 import auth from "@react-native-firebase/auth";
 
 GoogleSignin.configure({
-  webClientId:
-    "552618358571-pc3k68unc7o2lp124ctqhl7b06c7ond1.apps.googleusercontent.com",
+  webClientId: "Your client id",
 });
 
 export default function Index() {
